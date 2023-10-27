@@ -9,14 +9,14 @@
 */
 
 
-import { createApp } from 'vue';
+const {createApp} = Vue
 
 createApp({
   data() {
     return {
       message: 'The Matrix',
-      image: image
+      myImage: image
     };
   },
-}).mount('#app');
+}).mount('#title');
 
