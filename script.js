@@ -15,7 +15,7 @@ createApp({
   data() {
     return {
       message: 'The Matrix',
-      myImage: image
+      myImage: './img/markus-spiske-iar-afB0QQw-unsplash.jpeg'
     };
   },
 }).mount('#title');
