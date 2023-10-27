@@ -15,6 +15,7 @@ createApp({
   data() {
     return {
       message: 'The Matrix',
+      image: image
     };
   },
 }).mount('#app');
