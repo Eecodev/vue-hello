@@ -9,3 +9,13 @@
 */
 
 
+import { createApp } from 'vue';
+
+createApp({
+  data() {
+    return {
+      message: 'The Matrix',
+    };
+  },
+}).mount('#app');
+
